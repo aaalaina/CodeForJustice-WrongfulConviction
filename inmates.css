@@ -1,38 +1,143 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555;
 }
 /* INITIALIZING GRID FOR MY CONTENT */
 section{
     display: grid;
     grid-template-columns: 60% 30%;
+    
 }
 
 section article p{
     height: 10%;
     width: 40%;
 }
+
+p{
+    border-color: white;
+}
+
+
+br{
+    background-color: white;
+}
 section article{
     padding-left: 5%;
 }
-/* BUTTONS FOR THE ARTICLE */
-input{
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    transition: transform 250ms;
+section{
+    padding-top: 2%;
 }
-input:hover {
-    transform: translateY(-15%);
+/* BUTTONS FOR THE ARTICLE */
+
+input{
+    display: inline-block;
+    background: #555555;
+    color: #ffffff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+     border-style: solid;
+     border-color: rgba(0,0,0,0.0);
+  }
+  input:hover{
+    background: #563434;
     cursor: pointer;
   }
+
+
+
 
  nav{ display: flex;
     align-items: right;
     justify-content: right;
+    flex: 1;
  }
  nav li{
      text-decoration: none;
+     list-style: none;
  }
+
+ .container1{
+     padding-top: 2%;
+    background: radial-gradient(#fff,#b8b7b8);
+ }
+
+ .container1 header{
+     text-align: center;
+ }
+
+ nav li a {
+text-decoration: none;
+ }
+
+ .footer{
+    background: #000;
+    color:#8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+  }
+  .footer p{
+      color:#8a8a8a;
+  
+  }
+  .footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+  
+  }
+  .footer-col-1{
+    flex-basis:30px;
+  }
+  .footer-col-2{
+    flex: 1;
+    text-align: center;
+  }
+  .footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+  
+  }
+  .footer-col-3, .footer-col-4{
+  flex-basis:12%;
+    text-align:center;
+  }
+  ul{
+    list-style-type: none;
+  }
+  .app-logo{
+    margin-top: 20px;
+  }
+  .app-logo img{
+    width: 140px;
+  }
+  .footer hr{
+    border:none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+  }
+  .Copyright{
+    text-align: center;
+  }
+  .menu-icon{
+    width:28px; 
+    margin-left: 20px;
+    display:none;
+  }
+
+  figure img{
+     border-style: solid; 
+     border-color: white;
+    border-width: 5px; 
+    box-shadow: 10px 10px 5px grey;
+  }
+
 
  @media screen and (max-width: 480px) {
     
@@ -44,7 +149,10 @@ input:hover {
     header h1  {
         text-align: center;
     }
-    *{
-        max-width:min-content;
+    section article{
+        width: 100%;
+        text-align: center;
     }
   }
+
+
