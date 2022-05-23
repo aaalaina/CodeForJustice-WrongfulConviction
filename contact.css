@@ -59,8 +59,8 @@
   
   }
   h1{
-   background-color:#9c9c9c;
-       color:#2e2e2e;
+  background: radial-gradient(#fff,#b8b7b8)
+     
   }
   h3{
   background: radial-gradient(#fff,#b8b7b8);
@@ -155,5 +155,5 @@
 
   }
 .rest{
-    background-color:#9c9c9c;
+background: radial-gradient(#fff,#b8b7b8)
 }    
