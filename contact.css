@@ -150,3 +150,6 @@
       flex-wrap: wrap;
       justify-content: space-around;
     }
+ body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
