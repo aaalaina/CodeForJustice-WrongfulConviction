@@ -22,11 +22,14 @@ p{
 br{
     background-color: white;
 }
-section article{
-    padding-left: 5%;
+
+#inmatesh1{
+    color: #000;
 }
+
 section{
     padding-top: 2%;
+    padding-left: 12%;
 }
 /* BUTTONS FOR THE ARTICLE */
 
@@ -53,12 +56,28 @@ input{
     align-items: right;
     justify-content: right;
     flex: 1;
+    text-align: right;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    color: #555;
  }
- nav li{
+ nav ul li{
      text-decoration: none;
      list-style: none;
+     display: inline-block;
+     margin-right: 20px;
+     color: #555;
+ }
+ nav ul{
+     display: inline-block;
  }
 
+ .logo{
+     padding-bottom: 0%;
+     float: left;
+    padding-left: 7%;
+ }
  .container1{
      padding-top: 2%;
     background: radial-gradient(#fff,#b8b7b8);
@@ -71,6 +90,9 @@ input{
  nav li a {
 text-decoration: none;
  }
+
+
+ /* FOOTER */
 
  .footer{
     background: #000;
@@ -89,7 +111,7 @@ text-decoration: none;
   .footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
     min-width: 250px;
     margin-bottom: 20px;
-  
+    
   }
   .footer-col-1{
     flex-basis:30px;
@@ -101,7 +123,7 @@ text-decoration: none;
   .footer-col-2 img{
     width: 180px;
     margin-bottom: 20px;
-  
+    
   }
   .footer-col-3, .footer-col-4{
   flex-basis:12%;
@@ -131,12 +153,29 @@ text-decoration: none;
     display:none;
   }
 
+  div {
+    display: block;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
   figure img{
      border-style: solid; 
      border-color: white;
     border-width: 5px; 
     box-shadow: 10px 10px 5px grey;
+    transition: transform 250ms;
   }
+  
+ figure img:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+
 
 
  @media screen and (max-width: 480px) {
